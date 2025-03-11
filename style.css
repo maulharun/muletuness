@@ -1,0 +1,408 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open-sans',sans-serif;
+    background-color: #1b1b1b;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/*Menu*/
+
+.menu-container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'astonpoliz';
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Menu {
+    float: right;
+    margin: 10px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #000000;
+    z-index: 1;
+    border-bottom: 1px solid #ffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-abu {
+    background-color: #31363F;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-abu:hover {
+    background-color: #52545e ;
+}
+
+
+/*
+*Content1
+*/
+.container-content {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding-top: 50px;
+  padding-left: 30px;
+  }
+  
+  .text {
+    text-align: left;
+    margin: 50px;
+    color: #fff;
+  }
+  
+  .text > h1, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text > h1 {
+    font-family: 'astonpoliz';
+    font-size: 68px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+
+  .text > h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  .text > .button a{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+  }
+
+  .text2 {
+    color: #fff;
+    text-align: left;
+    margin: 80px 30px 50px 50px;
+    margin: auto;
+  } 
+
+/*
+*Profile-Jumbotron
+*/
+
+#jumbotron-profile {
+  background: url(JumbotronHeadphone.jpg) ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+}
+
+.header-jmbtrn-opacity {
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+
+.header-jumbotron {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.header-jumbotron > h4 {
+  font-size: 80px;
+  font-weight: bold;
+  float: left;
+  font-family: 'astonpoliz';
+  color: black;
+  background-color: yellow;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 50px;
+  }
+
+.header-jumbotron > h5 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+/*
+*Profile Content
+*/
+
+#about-us {
+  width: 100%;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  justify-content: left;
+  margin-left: 320px;
+  width: 700px;
+  height: auto;
+  margin: auto;
+}
+
+.container > h1 {
+  font-size: 70px;
+  padding-top: 50px;
+  color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.container > p {
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  width: 100%;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.content2 {  
+  width: 100%;
+  background-color: #000000;
+  height: auto;
+  margin: auto;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.content2 > p {
+  color: rgb(153, 153, 153);
+  width: 100vh;
+  height: auto;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  line-height: 1.5;
+  margin-left: 300px;
+}
+
+/*
+*History
+*/
+
+#history {
+  background-color: #0c0c0c;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+#history > h1 {
+  color: yellow;
+  font-size: 48px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+#history > ul {
+  margin: 0 0 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+#history > ul li {
+  color: rgb(153, 153, 153);
+  list-style: disc;
+  font-size: 16px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-justify: auto;
+}
+
+/*
+*Contact and Footer
+*/
+
+#contact {
+  background-color: #000000;
+  padding: 50px 0px 50px 0px;
+}
+
+.contact-section {
+  width:100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.contact-section-2 {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.contact-section-2 > h3 {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.contact-section-2 > h2 {
+color: rgb(153, 153, 153);
+}
+
+.contact-section-2 > p {
+  margin-top: 10px;
+  color: rgb(153, 153, 153);
+}
+
+#footer {
+width: 100%;
+background: #000000;
+padding: 5px 0px 5px 0px;
+}
+
+.footer-section {
+color: #fff;
+display: flex;
+justify-content: center;
+font-size: smaller;
+margin-left: 20px;
+}
+.dialog {
+  display: none; /* Awalnya disembunyikan */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Latar belakang hitam dengan transparansi */
+}
+
+.dialog-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*
+*1024, 900, 768, 600, 450
+*/
+
+@media only screen and(max-width: 1024px) {
+  .wrapper {
+    border: 1px solid red;
+  }
+}
